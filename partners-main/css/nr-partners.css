@@ -1,0 +1,326 @@
+/*html{
+    background: rgb(244, 244, 244);
+}
+
+#partners-header-wrapper{
+    height: 40px;
+    top: 0;
+}
+
+.box-shadow-dark{
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+    box-shadow: 0 2px 3px rgba(0,0,0,.25);
+}
+
+.bg-dark{
+    background-color: #252525;
+}
+
+.block-center{
+    margin: 0 auto;
+}
+
+.clear-collapse:before,
+.clear-collapse:after {
+  display: table;
+  content: " ";
+}
+
+.clear-collapse:after {
+  clear: both;
+}
+
+
+#partners-header-inner{
+    width: 980px;
+}
+
+.nav-logo-link{
+    display: block;
+    background-image: url(http://css.nrcdn.com/images/nRelate-logo.png) !important;
+    background-repeat: no-repeat;
+    height: 30px;
+    text-decoration: none;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.partners-menu > li {
+    position: relative;
+    display: block;
+}
+
+.partners-menu > li > a {
+    position: relative;
+    display: block;
+    padding: 12px 15px;
+    color: rgb(214, 214, 214);
+    font-size: 12px;
+}
+
+.partners-menu > li > a:hover,
+.partners-menu > li > a:focus,
+.partners-menu > li > a:active {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#nr-header-me{
+    margin-left: 20px;
+}
+
+.partners-nav .button{
+    background-image: url(http://css.nrcdn.com/images/logout-1.png);
+    height: 30px;
+    vertical-align: top;
+    margin: 5px 10px;
+    width: 30px;
+    display: inline-block;
+    color: transparent;
+}
+
+.partners-nav .button:hover{
+    background-image: url(http://css.nrcdn.com/images/logout-2.png);
+}
+
+.partners-nav .button:active {
+    position:relative;
+    top:1px;
+}
+
+.user-name > a{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    line-height: 40px;
+}
+.user-name > a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#partners-content-wrapper{
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+#partners-content-inner{
+    width: 980px;
+    min-height: 800px;
+}
+
+#partners-footer{
+    background: rgb(244, 244, 244);
+}
+
+.footer-menu ul{
+    width: 304px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.footer-menu li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 150px;
+}*/
+
+/* temp landing page solution */
+
+/*
+.partners-content li{
+    width: 475px;
+    float: left;
+    margin: 5px;
+    font-size: 13px;
+}
+.partners-content li > h5{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.partners-content li > p{
+    margin-top: 15px;
+    margin-bottom: -10px;
+}*/
+
+
+
+/*------------------------------------*\
+    $SETTINGS PAGE
+\*------------------------------------*/
+
+#settings-content{
+    padding: 25px;
+}
+
+#widgets-info{
+    margin-top: 20px;
+}
+
+#widgets-selection{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#widgets-selection li{
+    width: 490px;
+    text-align: center;
+    margin-left: -1px;
+}
+
+#widgets-selection li > a {
+    border-radius: 5px;
+}
+
+#widgets-selection li.active > a,
+#widgets-selection li.active > a:hover,
+#widgets-selection li.active > a:focus {
+  color: #ffffff;
+  background-color: black;
+}
+
+.widgets-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+
+.widgets-dropdown-menu > option {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.widgets-dropdown-menu > option:hover,
+.widgets-dropdown-menu > option:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #428bca;
+}
+
+.widgets-dropdown-menu > option> a,
+.widgets-dropdown-menu > option > a:hover,
+.widgets-dropdown-menu > option > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #428bca;
+  outline: 0;
+}
+
+.open > .widgets-dropdown-menu {
+  display: block;
+}
+
+.open > a {
+  outline: 0;
+}
+
+.widget-setting-card{
+   border: 1px solid rgb(221, 221, 221);
+    border-radius: 7px 7px 0 0;
+    padding: 25px;
+}
+
+font{
+    display: block;
+}
+
+#widgets-info > h4{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#widgets-info > form{
+    margin: 3px 0 10px 0;
+}
+
+#settings-tab{
+    margin-bottom: 10px;
+}
+
+.setting-item{
+    padding: 14px 0 8px 0;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.setting-item:nth-child(odd){
+    background-color: #f9f9f9;   
+}
+
+.setting-item .title{
+    top: 2px;
+}
+
+.setting-item .content{
+    top: -3px;
+}
+
+.radio-selection{
+    margin-top: 3px;
+}
+
+.setting-item > .content > .col-lg-3{
+    padding: 0;
+    padding-right: 10px;
+}
+
+.element-submit.setting-item{
+    background: none;
+    border-bottom: none;
+}
+
+.element-submit.setting-item>input[type='submit']{
+    float: right;
+    width: 20%;
+}
+
+table.table{
+    margin-bottom: 0;
+}
+
+table.table th{
+    text-align: center;
+}
+
+.tab-pane table.table td{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.setting-item > .content > p{
+    margin-top: 5px;
+}
+
+#add-partner-link{
+    padding-left: 0;
+}
+
+
+/* temp hack */
+
+#widgets-info font,
+#widgets-info h5{
+    margin: 15px 0;
+}
+
